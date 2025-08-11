@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQProblemSolving.Problem4
+namespace LINQProblemSolving.Problems.Problem4
 {
     internal class Grade
     {

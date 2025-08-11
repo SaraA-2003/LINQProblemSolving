@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQProblemSolving.Problem3
+namespace LINQProblemSolving.Problems.Problem4
 {
-    public class Employee
+    internal class Student
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public double Salary { get; set; }
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LINQProblemSolving
+namespace LINQProblemSolving.Problems
 {
      internal class Problem1
     {
