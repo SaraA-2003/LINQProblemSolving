@@ -15,12 +15,12 @@ namespace LINQProblemSolving.Problems.Problem6
             //and number of high-value sales (sales over 1000).
 
             var result = Sale.GetAllSales().GroupBy(r => r.Region)
-                                            .Select(x=> new
-                                            { 
-                                                RegionId= x.Key,
-                                                TotalSales  =x.Sum(a=> a.Amount),
+                                            .Select(x => new
+                                            {
+                                                RegionId = x.Key,
+                                                TotalSales = x.Sum(a => a.Amount),
                                                 AverageSales = x.Average(a => a.Amount),
-                                                HighValueSales = x.Count(a=> a.Amount > 1000)
+                                                HighValueSales = x.Where(a => a.Amount > 1000).Count()
 
                                             });
 
@@ -31,7 +31,7 @@ namespace LINQProblemSolving.Problems.Problem6
                 Console.WriteLine();
             }
 
-            Console.WriteLine("\n-----------------SQL Like-------------------------\n");
+            Console.WriteLine("\n-----------------Query Method-------------------------\n");
 
             var result2 = from sale in Sale.GetAllSales()
                           group sale by sale.Region into Group

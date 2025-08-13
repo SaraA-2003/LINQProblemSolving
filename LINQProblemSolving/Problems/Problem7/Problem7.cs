@@ -33,7 +33,7 @@ namespace LINQProblemSolving.Problems.Problem7
             }
 
 
-            Console.WriteLine("\n---------------SQL Like---------------------------\n");
+            Console.WriteLine("\n---------------Query Method---------------------------\n");
 
             var result2 = (from product in Product.GetAllProducts()
                            join order in Order.GetAllOrders()

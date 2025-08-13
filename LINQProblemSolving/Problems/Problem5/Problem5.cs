@@ -27,7 +27,7 @@ namespace LINQProblemSolving.Problems.Problem5
                 Console.WriteLine($"{item.CName}:\t{item.OrderTotal}");
                 
             }
-            Console.WriteLine("\n-----------SQL Like---------------\n");
+            Console.WriteLine("\n-----------Query Method---------------\n");
             var result2 = from customer in Customer.GetAllCustomers()
                           from order in customer.Orders
                           select new

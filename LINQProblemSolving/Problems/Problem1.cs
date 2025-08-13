@@ -18,6 +18,8 @@ namespace LINQProblemSolving.Problems
             {
                 Console.WriteLine(product);
             }
+
+
         }
     }
 }

@@ -46,7 +46,7 @@ namespace LINQProblemSolving.Problems.Problem4
                           join grade in grades on student.Id equals grade.StudentId
                           select new { StudentName = student.Name, StudentScore = grade.Score };
 
-            Console.WriteLine("\nSQL like");
+            Console.WriteLine("\nQuery Method");
             foreach(var student in result2)
             {
                 Console.WriteLine($"{student.StudentName} - {student.StudentScore}");
