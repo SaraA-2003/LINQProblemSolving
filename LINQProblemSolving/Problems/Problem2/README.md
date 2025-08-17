@@ -1,6 +1,7 @@
 ## LINQ Example: Grouping Orders by Customer
 
 Consider the following list of orders:
+```csharp
 var orders = new List<Order>
 {
     new Order { OrderId = 1, CustomerName = "Ali", Amount = 250 },
@@ -10,4 +11,5 @@ var orders = new List<Order>
 
 };
 
+### Task
 Write a LINQ query to group orders by CustomerName and calculate the total amount spent by each customer.
