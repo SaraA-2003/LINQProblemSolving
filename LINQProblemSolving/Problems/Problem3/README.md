@@ -27,3 +27,11 @@ var employees = new List<Employee>
   - Salary
 
   - EmployeeNames (comma-separated string of names in that group).
+
+### Expected Output
+```csharp
+[
+  { "Salary": 3500, "EmployeeNames": "Afaf, Areen, Worood" }
+]
+
+```
