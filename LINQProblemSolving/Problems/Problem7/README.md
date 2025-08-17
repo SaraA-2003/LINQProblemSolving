@@ -1,10 +1,9 @@
-# Join + GroupBy + Aggregation
+## Join & GroupBy & Aggregation
 
 ###  Problem
 
 Join **Orders** with **Products** to generate a report of **total quantity sold per product category**.
 
----
 
 ###  Models
 
