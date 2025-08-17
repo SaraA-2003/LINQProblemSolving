@@ -1,4 +1,4 @@
-# LINQ Example: Join Students with Grades
+# Join Students with Grades
 
 ### Given Data
 
