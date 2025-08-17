@@ -1,4 +1,4 @@
-# LINQ Example: Group Employees by Salary
+# Group Employees by Salary
 
 ### Given Data
 
