@@ -1,6 +1,6 @@
 ## Conditional Group Aggregation
 
-### 📋 Problem
+### Problem
 
 You have a list of sales data.  
 Group the data by **Region**, and for each region, calculate:
@@ -10,7 +10,7 @@ Group the data by **Region**, and for each region, calculate:
 - Number of **high-value sales** (sales over 1000)
 
 
-### 🏗️ Model
+### Model
 
 ```csharp
 public class Sale
