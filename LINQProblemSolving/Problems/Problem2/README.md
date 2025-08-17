@@ -1,4 +1,4 @@
-## LINQ Example: Grouping Orders by Customer
+## Grouping Orders by Customer
 
 Consider the following list of orders:
 ```csharp
