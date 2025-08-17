@@ -10,6 +10,6 @@ var orders = new List<Order>
    new Order { OrderId = 3, CustomerName = "Haya", Amount = 300 }
 
 };
-
+```
 ### Task
 Write a LINQ query to group orders by CustomerName and calculate the total amount spent by each customer.
