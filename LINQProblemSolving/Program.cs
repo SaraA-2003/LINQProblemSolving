@@ -1,4 +1,4 @@
-﻿using LINQProblemSolving.Problems;
+﻿using LINQProblemSolving.Problems.Problem1;
 using LINQProblemSolving.Problems.Problem10;
 using LINQProblemSolving.Problems.Problem11;
 using LINQProblemSolving.Problems.Problem2;
